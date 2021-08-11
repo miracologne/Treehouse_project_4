@@ -1,0 +1,73 @@
+
+/* Descriptive color variables*/ 
+
+$white : #fff;
+$black : #000;
+$grey : #4b4a4a;
+$pastel-green : #61ED99;
+$sky-blue : #61C5ED;
+$froly     : #ED617C;
+$pomegranate  : #F11F13;
+$lavender : #EE77EA;
+$rose-bud: #FCB4A1;
+$malibu: #7EC2F7;
+$mindaro: #F6F77E;
+
+
+/* Functional color variables */
+
+$color-prim : $pastel-green;
+$color-sec :  $sky-blue;
+
+$color-text-light: $white;
+$color-text-base:  $grey;
+$color-text-dark: $black;
+
+$color-link : $pomegranate;
+$color-blockquote: $froly;
+
+$color-border: $grey;
+
+$color-body :$white;
+
+
+/* Media query breakpoints */
+
+$brk-tablet : 768px;
+$brk-desktop : 1024px;
+
+/* light and dark */
+
+$green-light : lighten($pastel-green, 15%);
+$hov-dark: lighten($grey, 15%);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

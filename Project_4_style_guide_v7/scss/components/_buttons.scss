@@ -1,0 +1,67 @@
+/* ============================================= */
+/*              Buttons                          */
+/* ============================================= */
+
+.btn {
+    margin-top: 15px;
+    width: 100%;
+    color: $white;
+    border: none;
+    padding: 10px 0;
+    text-transform: uppercase;
+    border-radius: 5px;
+
+    &.default {
+      background-color: $sky-blue;
+      transition: background-color .4s ease-in-out, color .4s ease-in-out;
+      &:hover {
+        color: $white;
+        background-color: lighten($sky-blue, 15%);
+      }
+    }
+    &.error {
+      background-color: $pomegranate;
+      transition: background-color .4s ease-in-out, color .4s ease-in-out;
+      &:hover {
+        color: $white;
+        background-color: lighten($pomegranate, 15%);
+        }
+    }
+    &.info {
+      background-color: $grey;
+      transition: background-color .4s ease-in-out, color .4s ease-in-out;
+      &:hover {
+        color: $white;
+        background-color: lighten($grey, 15%);
+        }
+    }
+    &.success {
+      background-color: $pastel-green;
+      transition: background-color .4s ease-in-out, color .4s ease-in-out;
+      &:hover {
+        color: $white;
+        background-color: lighten($pastel-green, 15%);
+      }
+    }
+    &.warning {
+      background-color: $froly;
+      transition: background-color .4s ease-in-out, color .4s ease-in-out;
+      &:hover {
+        color: $white;
+        background-color: lighten($froly, 15%);
+      }
+    }
+    
+  }
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
